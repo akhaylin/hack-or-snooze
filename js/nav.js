@@ -48,3 +48,4 @@ function navSubmitStoryClick(){
 $body.on("click", "#nav-submit-story", navSubmitStoryClick);
 
 
+

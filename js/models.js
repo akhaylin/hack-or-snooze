@@ -89,6 +89,7 @@ class StoryList {
     const storyData = await response.json();
     const story = new Story(storyData.story);
     this.stories.unshift(story);
+
     return story;
 
   }
